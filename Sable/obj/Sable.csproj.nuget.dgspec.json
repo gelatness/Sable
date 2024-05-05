@@ -67,6 +67,14 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Plugin.MediaManager.Forms": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Xamarin.Plugin.FilePicker": {
+              "target": "Package",
+              "version": "[2.1.41, )"
             }
           },
           "imports": [
@@ -110,6 +118,14 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Plugin.MediaManager.Forms": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Xamarin.Plugin.FilePicker": {
+              "target": "Package",
+              "version": "[2.1.41, )"
             }
           },
           "imports": [
@@ -153,6 +169,14 @@
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Plugin.MediaManager.Forms": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Xamarin.Plugin.FilePicker": {
+              "target": "Package",
+              "version": "[2.1.41, )"
             }
           },
           "imports": [

@@ -1,6 +1,9 @@
-﻿using ObjCRuntime;
+﻿using MediaManager;
+using ObjCRuntime;
 using UIKit;
-
+using System.IO;
+using System.Collections.Generic;
+using static UIKit.UIDocumentPickerViewController;
 namespace Sable;
 
 public class Program
@@ -11,6 +14,7 @@ public class Program
 		// if you want to use a different Application Delegate class from "AppDelegate"
 		// you can specify it here.
 		UIApplication.Main(args, null, typeof(AppDelegate));
-	}
+        CrossMediaManager.Current.Init();
+    }
 }
 
